@@ -36,15 +36,39 @@
 
 
 
-import 'interest.dart';
+// import 'interest.dart';
+
+// void main()
+// {
+//   Interest i=Interest();
+//   i.p=5000;
+//   i.r=400;
+//   i.t=50;
+
+//   double si=i.calculate();
+//   print(si);
+// }
+
+
+import 'vehicles.dart';
 
 void main()
 {
-  Interest i=Interest();
-  i.p=5000;
-  i.r=400;
-  i.t=50;
+  Vehicle car=Vehicle();
+  car.name='maruthi';
+  car.colour='black';
+  car.number=123;
 
-  double si=i.calculate();
-  print(si);
+  car.display();
 }
+
+// import 'student.dart';
+
+// void main()
+// {
+//   Student swathi=Student(name: "Swathi", standard: 10, dob: 25-09-2000, place: "kongad", phNo: 9746606971);
+//   Student asmabi=Student(name: "Asmabi", standard: 9, dob: 27-10-2001, place: "kottakkal", phNo: 9446086166);
+//   swathi.studentDetailes();
+//   asmabi.studentDetailes();
+//   print(swathi.place);
+// }
