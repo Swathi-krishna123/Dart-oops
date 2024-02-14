@@ -50,17 +50,17 @@
 // }
 
 
-import 'vehicles.dart';
+// import 'vehicles.dart';
 
-void main()
-{
-  Vehicle car=Vehicle();
-  car.name='maruthi';
-  car.colour='black';
-  car.number=123;
+// void main()
+// {
+//   Vehicle car=Vehicle();
+//   car.name='maruthi';
+//   car.colour='black';
+//   car.number=123;
 
-  car.display();
-}
+//   car.display();
+// }
 
 // import 'student.dart';
 
@@ -72,3 +72,19 @@ void main()
 //   asmabi.studentDetailes();
 //   print(swathi.place);
 // }
+
+
+
+import 'dart:io';
+
+import 'encap.dart';
+
+void main()
+{
+  Encap student=Encap();
+  print("username:");
+  String name=(stdin.readLineSync()!);
+  print("password:");
+  int password=int.parse(stdin.readLineSync()!);
+  student.checkuser(name, password);
+}
