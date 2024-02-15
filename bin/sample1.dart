@@ -1,3 +1,4 @@
+// class and object====================================================================================
 
 // import 'example.dart';
 
@@ -7,10 +8,11 @@
 //    adress.name;
 //    adress.place;
 //    adress.pin;
-//   adress.display(); 
-
+//    adress.display(); 
 //  }
 
+
+// encapsulation===========================================================================================
 
 
 // import 'encap.dart';
@@ -20,6 +22,26 @@
 //   var abc=Encap();
 //   abc.checkuser();
 // }
+
+
+
+// import 'dart:io';
+
+// import 'encap.dart';
+
+// void main()
+// {
+//   Encap student=Encap();
+//   print("username:");
+//   String name=(stdin.readLineSync()!);
+//   print("password:");
+//   int password=int.parse(stdin.readLineSync()!);
+//   student.checkuser(name, password);
+// }
+
+
+
+
 
 // import 'dart:io';
 
@@ -50,6 +72,8 @@
 // }
 
 
+
+
 // import 'vehicles.dart';
 
 // void main()
@@ -61,6 +85,8 @@
 
 //   car.display();
 // }
+
+
 
 // import 'student.dart';
 
@@ -74,17 +100,3 @@
 // }
 
 
-
-import 'dart:io';
-
-import 'encap.dart';
-
-void main()
-{
-  Encap student=Encap();
-  print("username:");
-  String name=(stdin.readLineSync()!);
-  print("password:");
-  int password=int.parse(stdin.readLineSync()!);
-  student.checkuser(name, password);
-}
