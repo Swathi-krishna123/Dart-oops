@@ -18,20 +18,22 @@
 
 // }
 
-class Encap{
-  final _username='swathi';
-  final _password=123;
 
 
-void checkuser(String name,int password)
-{
-  if(_username==name && _password==password)
-  {
-    print("valid");
-  }
-  else
-  {
-    print("invalid");
-  }
-}
-}
+// class Encap{
+//   final _username='swathi';
+//   final _password=123;
+
+
+// void checkuser(String name,int password)
+// {
+//   if(_username==name && _password==password)
+//   {
+//     print("valid");
+//   }
+//   else
+//   {
+//     print("invalid");
+//   }
+// }
+// }

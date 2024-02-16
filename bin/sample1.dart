@@ -100,3 +100,23 @@
 // }
 
 
+import 'dart:io';
+
+import 'parent.dart';
+
+void main()
+{
+  print("enter your name :");
+  String name=(stdin.readLineSync()!);
+  print("enter your place:");
+  String place=(stdin.readLineSync()!);
+  print("enter your phone number:");
+  int phno=int.parse(stdin.readLineSync()!);
+  Student student=Student(studentName:name ,studentPlace:place,phNo: phno ,schoolName:"KPRP",place: "palakkad",uniformColour: "yellow" );
+  student.schoolDetails();
+  student.studentDetails();
+  
+
+
+
+}
