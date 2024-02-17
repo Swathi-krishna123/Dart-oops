@@ -100,23 +100,33 @@
 // }
 
 
-import 'dart:io';
+// import 'dart:io';
 
-import 'parent.dart';
+// import 'parent.dart';
 
-void main()
-{
-  print("enter your name :");
-  String name=(stdin.readLineSync()!);
-  print("enter your place:");
-  String place=(stdin.readLineSync()!);
-  print("enter your phone number:");
-  int phno=int.parse(stdin.readLineSync()!);
-  Student student=Student(studentName:name ,studentPlace:place,phNo: phno ,schoolName:"KPRP",place: "palakkad",uniformColour: "yellow" );
-  student.schoolDetails();
-  student.studentDetails();
-  
+// void main()
+// {
+//   print("enter your name :");
+//   String name=(stdin.readLineSync()!);
+//   print("enter your place:");
+//   String place=(stdin.readLineSync()!);
+//   print("enter your phone number:");
+//   int phno=int.parse(stdin.readLineSync()!);
+//   Student student=Student(studentName:name ,studentPlace:place,phNo: phno ,schoolName:"KPRP",place: "palakkad",uniformColour: "yellow" );
+//   student.schoolDetails();
+//   student.studentDetails();
+// }
 
 
 
-}
+
+// import 'polymorphism.dart';
+
+// void main()
+// {
+
+//   Child1 child1=Child1();
+//   Child2 child2=Child2();
+//   child1.values("flutter","bdjbdjh");
+//   child2.values(10, 60);
+// }

@@ -32,7 +32,4 @@ class Student extends School
     print("ph no:$phNo");
   }
 
-
-
-
 }
