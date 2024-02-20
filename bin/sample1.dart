@@ -130,3 +130,22 @@
 //   child1.values("flutter","bdjbdjh");
 //   child2.values(10, 60);
 // }
+
+
+
+
+
+void main()
+{
+  String a="hello";
+  String b="llohe";
+  String result=a+a;
+  print(result);
+  if(result.contains(b))
+  {
+    print("yes");
+  }
+  else{
+    print("no");
+  }
+}

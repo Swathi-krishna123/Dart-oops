@@ -19,9 +19,11 @@ class Child1 extends ParentClass
 
 class Child2 extends ParentClass{
   @override
-  void  values(dynamic num1,dynamic num2)
+  int values(dynamic num1,dynamic num2)
   {
     print(num1+num2);
+    return num1;
+    
   }
 }
 
